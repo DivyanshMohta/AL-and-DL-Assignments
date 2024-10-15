@@ -17,9 +17,14 @@ Prolog is intended primarily as a declarative programming language. In prolog, l
 
 ### Syntax of Prolog Family Tree
 The prolog syntax for mother-sister relationship is given as below:
+
 ![image](https://github.com/user-attachments/assets/a306bada-536f-4249-8c9e-6f9fa75cbace)
+
 Mother Relationship
+
 ![image](https://github.com/user-attachments/assets/32c58032-04dd-4c8c-bcfa-23274720daca)
+
 Sister Relationship
+
 mother(M,N): parent(M,N), female(M).
 sister(M,N): parent(O,M), parent(O,N), female(M), M\= =N.
