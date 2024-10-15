@@ -26,5 +26,5 @@ Mother Relationship
 
 Sister Relationship
 
-mother(M,N): parent(M,N), female(M).
-sister(M,N): parent(O,M), parent(O,N), female(M), M\= =N.
+- mother(M,N): parent(M,N), female(M).
+- sister(M,N): parent(O,M), parent(O,N), female(M), M\= =N.
