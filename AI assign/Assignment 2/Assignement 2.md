@@ -8,6 +8,7 @@ The goal is to solve a problem using constraints to limit possible solutions. Th
 Constraint Satisfaction Problems (CSP) play a crucial role in artificial intelligence (AI) as they help solve various problems that require decision-making 
 under certain constraints. CSPs represent a class of problems where the goal is to find a solution that satisfies a set of constraints.
 Example :
+
 ![image](https://github.com/user-attachments/assets/04ccb815-6765-4416-a1d0-de22ebf6aa6b)
 
 
