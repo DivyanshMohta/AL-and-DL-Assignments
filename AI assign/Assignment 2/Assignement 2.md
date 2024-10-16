@@ -29,7 +29,7 @@ The backtracking algorithm is a depth-first search method used to systematically
 3. If a conflict arises (i.e., a variable cannot be assigned a valid value), the algorithm backtracks to the previous variable and tries a different value.
 4. The process continues until either a valid solution is found or all possibilities have been exhausted.
 
-## . Forward-Checking Algorithm
+## 2. Forward-Checking Algorithm
 The forward-checking algorithm is an enhancement of the backtracking algorithm that aims to reduce the search space by applying local consistency checks.
 
 ### How it works:
