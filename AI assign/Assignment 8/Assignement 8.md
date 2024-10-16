@@ -24,14 +24,14 @@ Rule: If the router is malfunctioning, the network will be down.
 The system starts with the goal (network down) and works backward to check if the router is malfunctioning, verifying the necessary conditions to confirm the hypothesis.
 
 ### Advantages of Backward Chaining
-Goal-Oriented: It is efficient for goal-specific tasks as it only generates the facts needed to achieve the goal.
-Resource Efficient: It typically requires less memory, as it focuses on specific goals rather than exploring all possible inferences.
-Interactive: It is well-suited for interactive applications where the system needs to answer specific queries or solve particular problems.
-Suitable for Diagnostic Systems: It is particularly effective in diagnostic systems where the goal is to determine the cause of a problem based on symptoms.
+1. Goal-Oriented: It is efficient for goal-specific tasks as it only generates the facts needed to achieve the goal.
+2.Resource Efficient: It typically requires less memory, as it focuses on specific goals rather than exploring all possible inferences.
+3. Interactive: It is well-suited for interactive applications where the system needs to answer specific queries or solve particular problems.
+4. Suitable for Diagnostic Systems: It is particularly effective in diagnostic systems where the goal is to determine the cause of a problem based on symptoms.
 
 ### Disadvantages of Backward Chaining
-Complex Implementation: It can be more complex to implement, requiring sophisticated strategies to manage the recursive nature of the inference process.
-Requires Known Goals: It requires predefined goals, which may not always be feasible in dynamic environments where the goals are not known in advance.
-Inefficiency with Multiple Goals: If multiple goals need to be achieved, backward chaining may need to be repeated for each goal, potentially leading to inefficiencies.
-Difficulty with Large Rule Sets: As the number of rules increases, managing the backward chaining process can become increasingly complex.
+1. Complex Implementation: It can be more complex to implement, requiring sophisticated strategies to manage the recursive nature of the inference process.
+2. Requires Known Goals: It requires predefined goals, which may not always be feasible in dynamic environments where the goals are not known in advance.
+3. Inefficiency with Multiple Goals: If multiple goals need to be achieved, backward chaining may need to be repeated for each goal, potentially leading to inefficiencies.
+4. Difficulty with Large Rule Sets: As the number of rules increases, managing the backward chaining process can become increasingly complex.
 
