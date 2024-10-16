@@ -13,6 +13,11 @@ Start with Known Facts: The inference engine begins with the known facts in the 
 Apply Rules: It looks for rules whose conditions are satisfied by the known facts.
 Infer New Facts: When a rule is applied, new facts are inferred and added to the knowledge base.
 Repeat: This process is repeated until no more rules can be applied or a specified goal is achieved.
+
+
+![image](https://github.com/user-attachments/assets/182fa8f4-8268-47aa-89a2-991443b80095)
+
+
 Example of Forward Chaining
 Consider a medical diagnosis system where rules are used to diagnose diseases based on symptoms:
 
