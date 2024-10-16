@@ -26,12 +26,12 @@ Rule: If a patient has a fever and a rash, they might have measles.
 Starting with the known fact (fever), the system checks for other symptoms (rash). If the patient also has a rash, the system infers the possibility of measles.
 
 ### Advantages of Forward Chaining
-Simplicity: Forward chaining is straightforward and easy to implement.
-Automatic Data Processing: It processes data as it arrives, making it suitable for dynamic environments where new data continuously becomes available.
-Comprehensive: It explores all possible inferences, ensuring that all relevant conclusions are reached.
-Efficiency in Certain Scenarios: It can be efficient when all possible inferences need to be made from a set of data.
+1. Simplicity: Forward chaining is straightforward and easy to implement.
+2. Automatic Data Processing: It processes data as it arrives, making it suitable for dynamic environments where new data continuously becomes available.
+3. Comprehensive: It explores all possible inferences, ensuring that all relevant conclusions are reached.
+4. Efficiency in Certain Scenarios: It can be efficient when all possible inferences need to be made from a set of data.
 
 ### Disadvantages of Forward Chaining
-Inefficiency in Goal-Oriented Tasks: It can be inefficient if only a specific goal needs to be achieved, as it may generate many irrelevant inferences.
-Memory Intensive: It can consume significant memory, storing a large number of intermediate facts.
-Complexity with Large Rule Sets: As the number of rules increases, the system may become slow due to the need to check many conditions.
+1. Inefficiency in Goal-Oriented Tasks: It can be inefficient if only a specific goal needs to be achieved, as it may generate many irrelevant inferences.
+2. Memory Intensive: It can consume significant memory, storing a large number of intermediate facts.
+3. Complexity with Large Rule Sets: As the number of rules increases, the system may become slow due to the need to check many conditions.
